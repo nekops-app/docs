@@ -1,0 +1,18 @@
+{
+  "name": "nekops-docs",
+  "version": "0.0.0",
+  "description": "Documents for Nekops",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "repository": "git@github.com:nekops-app/docs.git",
+  "author": "Nya Candy <dev@candinya.com>",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "vitepress": "1.6.3",
+    "vue": "^3.5.13"
+  }
+}
