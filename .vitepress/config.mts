@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,9 +12,9 @@ export default defineConfig({
     logo: "/assets/logo.png",
 
     nav: [
-      { 
-        text: '首页', 
-        link: '/' 
+      {
+        text: "首页",
+        link: "/",
       },
       {
         text: "链接",
@@ -33,52 +33,60 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '关于项目',
+        text: "关于项目",
         items: [
-          { text: '快速开始', link: '/quickstart' },
-          { text: '界面布局', link: '/layout' },
-          { text: '应用更新', link: '/update' },
-        ]
+          { text: "快速开始", link: "/quickstart/" }, // 因为有资源文件所以放到目录里去了，需要加 / 结尾
+          { text: "代码公证", link: "/notarize" },
+        ],
       },
       {
-        text: '页面介绍',
+        text: "视窗分离",
+        link: "/window/",
+        items: [
+          { text: "主视窗", link: "/window/main" },
+          { text: "命令行", link: "/window/shell" },
+          { text: "救援", link: "/window/rescue" },
+        ],
+      },
+      {
+        text: "页面介绍",
         items: [
           {
             text: "连接",
             items: [
-              { text: 'SSH', link: '/pages/connect/ssh' },
-              { text: '群控', link: '/pages/connect/multirun' },
-              { text: '救援', link: '/pages/connect/rescue' },
-            ]
+              { text: "SSH", link: "/pages/connect/ssh" },
+              { text: "群控", link: "/pages/connect/multirun" },
+              { text: "救援", link: "/pages/connect/rescue" },
+            ],
           },
           {
             text: "库",
             items: [
-              { text: '服务器', link: '/pages/library/servers' },
-              { text: '代码片段', link: '/pages/library/snippets' },
-            ]
+              { text: "服务器", link: "/pages/library/servers" },
+              { text: "代码片段", link: "/pages/library/snippets" },
+            ],
           },
-          { text: '分析', link: '/pages/analysis' },
-          { text: '设置', link: '/pages/settings' },
+          { text: "分析", link: "/pages/analysis" },
+          { text: "设置", link: "/pages/settings" },
         ],
       },
-      { 
-        text: '视窗分离',
-        link: '/window',
+      {
+        text: "开发",
+        link: "/develop/",
         items: [
-          { text: '主视窗', link: '/window/main' },
-          { text: '命令行', link: '/window/shell' },
-          { text: '救援', link: '/window/rescue' },
-        ]
+          { text: "准备工作", link: "/develop/prepare" },
+          { text: "从源码构建", link: "/develop/build" },
+          { text: "已知问题", link: "/develop/issues" },
+        ],
       },
       {
-        text: '附录',
+        text: "附录",
         items: [
-          { text: '概念', link: '/concept' },
-          { text: '开源许可', link: '/license' },
-          { text: '更新日志', link: '/changelog' },
-          { text: '国际化', link: '/i18n' },
-        ]
+          { text: "概念", link: "/concept" },
+          { text: "开源许可", link: "/license" },
+          { text: "更新日志", link: "/changelog" },
+          { text: "国际化", link: "/i18n" },
+        ],
       },
     ],
 
@@ -127,7 +135,7 @@ export default defineConfig({
     },
 
     outline: {
-      level: 'deep',
+      level: "deep",
       label: "页面导航",
     },
 
@@ -148,6 +156,6 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://docs.nekops.app',
+    hostname: "https://docs.nekops.app",
   },
 });
