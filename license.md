@@ -8,6 +8,12 @@
 
 [AGPL-3.0]: https://www.gnu.org/licenses/agpl-3.0.html
 
+### 翻译
+
+项目的国际化翻译基于 [CC-BY-SA-4.0] 进行授权。
+
+[CC-BY-SA-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
+
 ### 品牌资源
 
 项目的品牌资源为版权所有产物，如果您需要分发您的二次开发版本，请在明确标注本原始项目的同时避免使用相同的名称和品牌资源。
