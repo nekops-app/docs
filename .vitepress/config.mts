@@ -33,10 +33,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "关于项目",
+        text: "快速开始",
+        link: "/quickstart/",
         items: [
-          { text: "快速开始", link: "/quickstart/" }, // 因为有资源文件所以放到目录里去了，需要加 / 结尾
-          { text: "代码公证", link: "/notarize" },
+          { text: "获取 Nekops", link: "/quickstart/acquire" },
+          { text: "我的第一个服务器", link: "/quickstart/my-first-server" },
         ],
       },
       {
@@ -49,14 +50,15 @@ export default defineConfig({
         ],
       },
       {
-        text: "页面介绍",
+        text: "页面",
+        link: "/page/",
         items: [
           {
             text: "连接",
             items: [
-              { text: "SSH", link: "/pages/connect/ssh" },
-              { text: "群控", link: "/pages/connect/multirun" },
-              { text: "救援", link: "/pages/connect/rescue" },
+              { text: "SSH", link: "/page/connect/ssh" },
+              { text: "群控", link: "/page/connect/multirun" },
+              { text: "救援", link: "/page/connect/rescue" },
             ],
           },
           {
@@ -83,6 +85,7 @@ export default defineConfig({
         text: "附录",
         items: [
           { text: "概念", link: "/concept" },
+          { text: "代码公证", link: "/notarize" },
           { text: "开源许可", link: "/license" },
           { text: "更新日志", link: "/changelog" },
           { text: "国际化", link: "/i18n" },
