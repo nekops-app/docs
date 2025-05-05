@@ -64,12 +64,12 @@ export default defineConfig({
           {
             text: "库",
             items: [
-              { text: "服务器", link: "/pages/library/servers" },
-              { text: "代码片段", link: "/pages/library/snippets" },
+              { text: "服务器", link: "/page/library/servers" },
+              { text: "代码片段", link: "/page/library/snippets" },
             ],
           },
-          { text: "分析", link: "/pages/analysis" },
-          { text: "设置", link: "/pages/settings" },
+          { text: "分析", link: "/page/analysis" },
+          { text: "设置", link: "/page/settings" },
         ],
       },
       {
