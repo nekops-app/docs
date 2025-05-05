@@ -76,7 +76,6 @@ export default defineConfig({
         text: "开发",
         link: "/develop/",
         items: [
-          { text: "准备工作", link: "/develop/prepare" },
           { text: "从源码构建", link: "/develop/build" },
           { text: "已知问题", link: "/develop/issues" },
         ],
