@@ -25,7 +25,7 @@
 | GitHub | [EXE](https://github.com/Candinya/nekops/releases/latest/download/Nekops-windows-x64.exe) [MSI](https://github.com/Candinya/nekops/releases/latest/download/Nekops-windows-x64.msi) | [DMG](https://github.com/Candinya/nekops/releases/latest/download/Nekops-macos-aarch64.dmg) | [DEB](https://github.com/Candinya/nekops/releases/latest/download/Nekops-linux-x64.deb) [RPM](https://github.com/Candinya/nekops/releases/latest/download/Nekops-linux-x64.rpm) [AppImage](https://github.com/Candinya/nekops/releases/latest/download/Nekops-linux-x64.AppImage) |
 | 代理 | [EXE](https://release.nekops.app/latest/Nekops-windows-x64.exe) [MSI](https://release.nekops.app/latest/Nekops-windows-x64.msi) | [DMG](https://release.nekops.app/latest/Nekops-macos-aarch64.dmg) | [DEB](https://release.nekops.app/latest/Nekops-linux-x64.deb) [RPM](https://release.nekops.app/latest/Nekops-linux-x64.rpm) [AppImage](https://release.nekops.app/latest/Nekops-linux-x64.AppImage) |
 
-特别地，为了确保您获得的结果真实可信，请参考[项目证明]部分的说明，对您下载到的文件执行确认。
+特别地，为了确保您下载得到的文件真实可信，请参考[项目证明]部分的说明，对您它们执行确认。
 
 [项目证明]: /notarize#项目证明
 

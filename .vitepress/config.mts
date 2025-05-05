@@ -36,7 +36,7 @@ export default defineConfig({
         text: "快速开始",
         link: "/quickstart/",
         items: [
-          { text: "获取 Nekops", link: "/quickstart/acquire" },
+          { text: "获取 Nekops", link: "/quickstart/install" },
           { text: "我的第一个服务器", link: "/quickstart/my-first-server" },
         ],
       },
