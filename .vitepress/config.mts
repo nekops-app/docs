@@ -62,9 +62,9 @@ export default defineConfig({
         text: "视窗分离",
         link: "/window/",
         items: [
-          { text: "主视窗", link: "/window/main" },
-          { text: "命令行", link: "/window/shell" },
-          { text: "救援", link: "/window/rescue" },
+          { text: "主视窗", link: "/window/main/" },
+          { text: "命令行", link: "/window/shell/" },
+          { text: "救援", link: "/window/rescue/" },
         ],
       },
       {
@@ -74,20 +74,20 @@ export default defineConfig({
           {
             text: "连接",
             items: [
-              { text: "SSH", link: "/page/connect/ssh" },
-              { text: "群控", link: "/page/connect/multirun" },
-              { text: "救援", link: "/page/connect/rescue" },
+              { text: "SSH", link: "/page/connect/ssh/" },
+              { text: "群控", link: "/page/connect/multirun/" },
+              { text: "救援", link: "/page/connect/rescue/" },
             ],
           },
           {
             text: "库",
             items: [
-              { text: "服务器", link: "/page/library/servers" },
-              { text: "代码片段", link: "/page/library/snippets" },
+              { text: "服务器", link: "/page/library/servers/" },
+              { text: "代码片段", link: "/page/library/snippets/" },
             ],
           },
-          { text: "分析", link: "/page/analysis" },
-          { text: "设置", link: "/page/settings" },
+          { text: "分析", link: "/page/analysis/" },
+          { text: "设置", link: "/page/settings/" },
         ],
       },
       {
