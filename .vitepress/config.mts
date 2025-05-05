@@ -36,8 +36,26 @@ export default defineConfig({
         text: "快速开始",
         link: "/quickstart/",
         items: [
-          { text: "获取 Nekops", link: "/quickstart/install" },
-          { text: "我的第一个服务器", link: "/quickstart/my-first-server" },
+          { text: "获取 Nekops", link: "/quickstart/install/" },
+          {
+            text: "初见体验",
+            items: [
+              { text: "第一印象", link: "/quickstart/first-impression/" },
+              { text: "你好，服务器", link: "/quickstart/hello-server/" },
+              { text: "一切皆在掌控中", link: "/quickstart/everything-under-control/" },
+            ],
+          },
+          {
+            text: "进阶研习",
+            items: [
+              { text: "一呼百应的力量", link: "/quickstart/power-of-multirun/" },
+              { text: "拯救大服务器", link: "/quickstart/rescue-server/" },
+              { text: "透视数据的维度", link: "/quickstart/analysis-of-servers/" },
+              { text: "定制我的客户端", link: "/quickstart/customize-my-client/" },
+            ],
+          },
+          { text: "报告问题", link: "/quickstart/report-issues" },
+          { text: "加入社区", link: "/quickstart/join-the-community" },
         ],
       },
       {
