@@ -2,7 +2,7 @@
 
 ## 构建嵌入的依赖项
 
-我们准备了一个 Makefile 命令来简化您的操作。如果您的开发环境支持运行 Makefile ，您可以使用这样的命令来构建嵌入的依赖项：
+我准备了一个 Makefile 命令来简化您的操作。如果您的开发环境支持运行 Makefile ，您可以使用这样的命令来构建嵌入的依赖项：
 
 ```sh
 make embedded
@@ -100,7 +100,7 @@ pnpm tauri info
 pnpm tauri build
 ```
 
-或者使用我们提供的 Makefile 规则：
+或者使用提供的 Makefile 规则：
 
 ```sh
 make release

@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import footnote from "markdown-it-footnote";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -54,6 +55,7 @@ export default defineConfig({
               { text: "定制我的客户端", link: "/quickstart/customize-my-client/" },
             ],
           },
+          { text: "更新", link: "/quickstart/update/" },
           { text: "报告问题", link: "/quickstart/report-issues" },
           { text: "加入社区", link: "/quickstart/join-the-community" },
         ],
@@ -61,6 +63,7 @@ export default defineConfig({
       {
         text: "视窗分离",
         link: "/window/",
+        collapsed: true,
         items: [
           { text: "主视窗", link: "/window/main/" },
           { text: "命令行", link: "/window/shell/" },
@@ -70,6 +73,7 @@ export default defineConfig({
       {
         text: "页面",
         link: "/page/",
+        collapsed: true,
         items: [
           {
             text: "连接",
@@ -173,6 +177,12 @@ export default defineConfig({
     darkModeSwitchLabel: "主题",
     lightModeSwitchTitle: "切换到浅色模式",
     darkModeSwitchTitle: "切换到深色模式",
+  },
+
+  markdown: {
+    config: (md) => {
+      md.use(footnote);
+    },
   },
 
   sitemap: {

@@ -7,11 +7,11 @@
 
 ## 依赖问题
 
-1. xterm.js 在 5.3.0 以后的版本中的 `open` 函数出现了问题 <Badge type="info">[xterm.js#4978]</Badge> 导致在标签页迁移矩阵位置后无法重新加载，所以锁定在 5.3.0 版本，等待问题修复后才能升级。
+1. xterm.js 在 5.3.0 以后的版本中的 `open` 函数出现了问题[^xterm-open]，导致在标签页迁移矩阵位置后无法重新加载，所以锁定在 5.3.0 版本，等待问题修复后才能升级。
    
    同时也因此有 xterm.js 在 5.4.0 新推出的函数 `input` 无法使用，需要在升级后将群控相关的指令移动到组件里面去（也可以不移动？看情况）
 
-2. noVNC 在 1.6.0 版本中使用了顶层的 await 命令，但 esbuild （也可能是 babel ）不支持这个导致无法打包 <Badge type="info">[noVNC#1943]</Badge>，所以锁定在 1.5.0 版本。
+2. noVNC 在 1.6.0 版本中使用了顶层的 await 命令，但 esbuild （也可能是 babel ）不支持这个导致无法打包[^novnc-await]，所以锁定在 1.5.0 版本。
 
-[xterm.js#4978]: https://github.com/xtermjs/xterm.js/issues/4978
-[noVNC#1943]: https://github.com/novnc/noVNC/issues/1943
+[^xterm-open]: [xterm.js#4978](https://github.com/xtermjs/xterm.js/issues/4978)
+[^novnc-await]: [noVNC#1943](https://github.com/novnc/noVNC/issues/1943)
