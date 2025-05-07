@@ -6,31 +6,33 @@
 
 :::
 
+## 添加一个工作区
+
 前往 设置 页面，向下滚动到 工作区 区域，我们可以查看所有的工作区。
 
-![设置里的工作区](./settings-workspaces.png)
+![设置里的工作区](settings-workspaces.png)
 
 点击工作区的名称，即可展开查看这个工作区的详细信息。
 
-![展开工作区](./expand-workspace.png)
+![展开工作区](expand-workspace.png)
 
 Nekops 默认会在当前用户的文档目录[^document-in-disk-d]下创建 Nekops 目录（这里同时也是总配置文件的存储目录），并以其中的 data 目录作为数据目录。
 
-![Nekops 目录](./nekops-directory.png)
+![Nekops 目录](nekops-directory.png)
 
 可以在这里找到我们刚才创建的服务器：
 
-![数据目录](./nekops-data.png)
+![数据目录](nekops-data.png)
 
 但您或许并不一定希望在这个目录管理它们。 Nekops 支持添加多个工作区，所以我们可以创建一个新的，放置在我们喜欢的位置。
 
 回到 设置 页面，点击 工作区 区域下的 **添加** 按钮：
 
-![添加工作区](./add-workspace.png)
+![添加工作区](add-workspace.png)
 
 系统会创建一个新的标识为 default ，名称为 Default ，目录为 nekops_data 的工作区。同样通过点击名称来展开它，我们可以查看详细信息：
 
-![新的工作区](./new-workspace.png)
+![新的工作区](new-workspace.png)
 
 将它修改成我们想要的内容，例如：
 
@@ -39,33 +41,37 @@ Nekops 默认会在当前用户的文档目录[^document-in-disk-d]下创建 Nek
 
 然后点击 数据目录 输入框右侧的 文件夹图标的按钮，选择一个希望存储数据的目录：
 
-![设置信息](./set-info.png)
+![设置信息](set-info.png)
 
 点击 **保存** 按钮来确认设置变更：
 
-![保存设置](./save-settings.png)
+![保存设置](save-settings.png)
 
 这样，我们的新工作区就创建完成了。
 
+## 切换到新的工作区
+
 我们可以在 控制栏 切换工作区：
 
-![切换工作区](./select-workspace.png)
+![切换工作区](select-workspace.png)
 
 切换到新的工作区后，由于这是一个新的工作区，所以里面什么数据都没有。
 
 您可以仿照[之前的步骤]，添加一个服务器。
 
-[之前的步骤]: /quickstart/hello-server/
+[之前的步骤]: /quickstart/hello-server/#添加一个服务器
 
 当您添加好服务器后，我们前往这个数据目录，可以看到结构相同的内容：
 
-![新工作区的数据](./new-workspace-data.png)
+![新工作区的数据](new-workspace-data.png)
 
 您可以像使用任何一个工作区那样使用它。您也可以创建任意多个工作区，以方便您的使用。
 
+## 使用工具同步工作区数据
+
 由于使用了纯文本友好的数据存储格式，我们可以使用一些版本管理工具来管理它们，例如 git ：
 
-![版本管理工具](./version-control-tool.png)
+![版本管理工具](version-control-tool.png)
 
 当然，您也可以把它设置在同步网盘里，以方便您的使用。
 

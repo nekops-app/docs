@@ -47,23 +47,23 @@ MacOS 平台由于苹果公司的安全策略设置问题，运行起来会有�
 
 当您将应用程序安装完成后尝试运行时，您会得到如下图的提示信息：
 
-![未打开 Nekops](./macos-open-1.png)
+![未打开 Nekops](macos-open-1.png)
 
 您可以点击右上角的问号来确认详细信息：
 
-![Apple 无法检查 App 是否为恶意软件](./macos-open-2.png)
+![Apple 无法检查 App 是否为恶意软件](macos-open-2.png)
 
 其中提示您可以去系统设置中手动允许该程序的运行。打开系统设置，您会看到如图所示的内容：
 
-![已阻止 Nekops 以保护你的 Mac](./macos-open-3.png)
+![已阻止 Nekops 以保护你的 Mac](macos-open-3.png)
 
 当您点击 **强制打开** 按钮后，系统会弹出一个确认对话框，如图所示：
 
-![要打开 Nekops 吗](./macos-open-4.png)
+![要打开 Nekops 吗](macos-open-4.png)
 
 当您按下中间的 **强制打开** 按钮后，系统会要求您执行身份确认，如图所示：
 
-![使用管理者的 Touch ID 或输入管理者的密码来允许此操作](./macos-open-5.png)
+![使用管理者的 Touch ID 或输入管理者的密码来允许此操作](macos-open-5.png)
 
 当您输入密码后，应用程序即会得到运行批准。您可以像运行一个一般程序那样运行它。
 
