@@ -51,8 +51,6 @@ export default defineConfig({
             items: [
               { text: "一呼百应的力量", link: "/quickstart/power-of-multirun/" },
               { text: "拯救大服务器", link: "/quickstart/rescue-server/" },
-              { text: "透视数据的维度", link: "/quickstart/analysis-of-servers/" },
-              { text: "定制我的客户端", link: "/quickstart/customize-my-client/" },
             ],
           },
           { text: "更新", link: "/quickstart/update/" },

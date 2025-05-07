@@ -13,5 +13,7 @@
 
 2. noVNC 在 1.6.0 版本中使用了顶层的 await 命令，但 esbuild （也可能是 babel ）不支持这个导致无法打包[^novnc-await]，所以锁定在 1.5.0 版本。
 
+<!-- 脚注 -->
+
 [^xterm-open]: [xterm.js#4978](https://github.com/xtermjs/xterm.js/issues/4978)
 [^novnc-await]: [noVNC#1943](https://github.com/novnc/noVNC/issues/1943)
