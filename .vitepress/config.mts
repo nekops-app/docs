@@ -19,7 +19,7 @@ export default defineConfig({
         activeMatch: "/.+",
       },
       {
-        text: "链接",
+        text: "GitHub",
         items: [
           {
             text: "项目仓库",
@@ -30,6 +30,10 @@ export default defineConfig({
             link: "https://github.com/nekops-app",
           },
         ],
+      },
+      {
+        text: "社区",
+        link: "https://community.nekops.app",
       },
     ],
 
