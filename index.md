@@ -9,7 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 🚀 快速开始
-      link: /quickstart
+      link: /quickstart/
+    - theme: alt
+      text: 🛠️ 开始开发
+      link: /develop/
     - theme: alt
       text: 🔍 更新日志
       link: /changelog

@@ -14,8 +14,9 @@ export default defineConfig({
 
     nav: [
       {
-        text: "首页",
-        link: "/",
+        text: "文档",
+        link: "/quickstart/",
+        activeMatch: "/.+",
       },
       {
         text: "链接",
@@ -53,7 +54,8 @@ export default defineConfig({
               { text: "拯救大服务器", link: "/quickstart/rescue-server/" },
             ],
           },
-          { text: "更新", link: "/quickstart/update/" },
+          { text: "设置详解", link: "/quickstart/settings/" },
+          { text: "软件更新", link: "/quickstart/update/" },
           { text: "报告问题", link: "/quickstart/report-issues" },
           { text: "加入社区", link: "/quickstart/join-the-community" },
         ],
@@ -61,35 +63,11 @@ export default defineConfig({
       {
         text: "视窗分离",
         link: "/window/",
-        collapsed: true,
+        // collapsed: true,
         items: [
           { text: "主视窗", link: "/window/main/" },
           { text: "命令行", link: "/window/shell/" },
           { text: "救援", link: "/window/rescue/" },
-        ],
-      },
-      {
-        text: "页面",
-        link: "/page/",
-        collapsed: true,
-        items: [
-          {
-            text: "连接",
-            items: [
-              { text: "SSH", link: "/page/connect/ssh/" },
-              { text: "群控", link: "/page/connect/multirun/" },
-              { text: "救援", link: "/page/connect/rescue/" },
-            ],
-          },
-          {
-            text: "库",
-            items: [
-              { text: "服务器", link: "/page/library/servers/" },
-              { text: "代码片段", link: "/page/library/snippets/" },
-            ],
-          },
-          { text: "分析", link: "/page/analysis/" },
-          { text: "设置", link: "/page/settings/" },
         ],
       },
       {
