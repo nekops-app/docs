@@ -10,7 +10,7 @@ Nekops 是什么？
 
 简而言之，它就是一个用来方便管理服务器的玩具。
 
-如果您想了解更多，欢迎阅读我的博客文章。<!-- TODO 还没写呢，写好了在这里更新一下链接 -->
+如果您想了解更多，欢迎阅读[我的博客文章]。
 
 ## 设计原则
 
@@ -23,3 +23,4 @@ Nekops 是什么？
 [视窗分离]: /window/
 [第一印象]: /quickstart/first-impression/
 [加入社区]: /quickstart/join-the-community
+[我的博客文章]: https://candinya.com/posts/my-new-toy-to-manage-servers/
